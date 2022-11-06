@@ -1,9 +1,6 @@
+const { tokens } = require('../tokens')
 const { expect } = require('chai')
 const { ethers } = require('hardhat')
-
-const tokens = (n) => {
-  return ethers.utils.parseUnits(n.toString(), 'ether')
-}
 
 describe('Escrow', () => {
   let realEstate, escrow, buyer, seller, inspector, lender
