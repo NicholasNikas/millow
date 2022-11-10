@@ -7,17 +7,17 @@
 }
 
 :root {
-  --clr-white: #FFFFFF;
+  --clr-white: #ffffff;
   --clr-black: #202020;
   --clr-grey: #707070;
-  --clr-blue: #6C63FF;
+  --clr-blue: #6c63ff;
   --clr-blue-2: #4c46b6;
   --clr-green: #4fb646;
 }
 
 body {
   margin: 0;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -82,8 +82,8 @@ nav {
   border: none;
   border-radius: 4px;
 
-  font-family: "Open Sans";
-  font-size: 1.10em;
+  font-family: 'Open Sans';
+  font-size: 1.1em;
   font-weight: 600;
 
   cursor: pointer;
@@ -98,7 +98,7 @@ nav {
 /* -- HEADER -- */
 
 header {
-  background-image: url("./assets/houses.png");
+  background-image: url('./assets/houses.png');
   background-position: center;
   background-size: cover;
   min-height: 40vh;
@@ -130,7 +130,7 @@ header {
 }
 
 .header__search::placeholder {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 1.25em;
   font-weight: 600;
 }
@@ -200,14 +200,14 @@ header {
 }
 
 .card__info h4 {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 1.25em;
   font-weight: 600;
 }
 
 .card__info p {
-  font-family: "Open Sans";
-  font-size: 0.90em;
+  font-family: 'Open Sans';
+  font-size: 0.9em;
   margin-top: 5px;
 }
 
@@ -302,8 +302,8 @@ header {
   border: none;
   border-radius: 4px;
 
-  font-family: "Open Sans";
-  font-size: 1.10em;
+  font-family: 'Open Sans';
+  font-size: 1.1em;
   font-weight: 600;
 
   cursor: pointer;
